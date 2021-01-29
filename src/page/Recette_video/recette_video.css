@@ -1,0 +1,193 @@
+body {
+  position: relative;
+  background-color: #F7FCFF;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.system-bar-top {
+  position: relative;
+  height: 39px;
+  width: 414px;
+}
+
+.time {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  left: 0px;
+  top: calc(50% - 21px / 2 - 9px);
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.cellular-Connection {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  right: 64px;
+  top: 6px;
+}
+
+.wifi {
+  position: absolute;
+  width: 15.33px;
+  height: 11px;
+  right: 42.67px;
+  top: 6px;
+}
+
+.battery {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  left: 379px;
+  top: 6px;
+}
+
+.top-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.titre-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  height: 29px;
+}
+
+.titre {
+  width: 400px;
+  height: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.309174px;
+  color: #000000;
+}
+
+.fermer {
+  width: 24px;
+  height: 24px;
+}
+
+.sous-titre {
+  width: 400px;
+  height: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.309174px;
+  color: #B8C1C1;
+}
+
+.image-wrapper {
+  position: absolute;
+  width: 414px;
+  height: 240px;
+  left: 0;
+  top: 99px;
+  background: #C4C4C4;
+}
+
+.video-icon {
+  position: absolute;
+  width: 59.95px;
+  height: 61.86px;
+  left: 177px;
+  top: 89px;
+}
+
+.chef-wrapper {
+  position: absolute;
+  width: 414px;
+  height: 261px;
+  left: 0;
+  top: 384px;
+  background: #F7FCFF;
+  border-radius: 44px;
+}
+
+.chef {
+  position: absolute;
+  width: 136px;
+  height: 135px;
+  left: 14px;
+  top: 88px;
+}
+
+.dialogue-wrapper {
+  position: absolute;
+  width: 209px;
+  height: 89px;
+  left: 181px;
+  top: 31px;
+
+  background: #FFFEFE;
+  box-shadow: 0 0 12.8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.dialogue {
+  position: absolute;
+  height: 76.8px;
+  left: 12.8px;
+  right: 12.8px;
+  top: calc(50% - 76.8px / 2 + 0.5px);
+  font-family: Chewy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.system-menu {
+  position: absolute;
+  width: 414px;
+  height: 62px;
+  left: 0;
+  top: 674px;
+  background: #FFFFFF;
+  box-shadow: 0 -1.5px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px 20px 0 0;
+}
+
+.menu-item {
+  margin-top: 10px;
+}
+
+.menu-home {
+  margin-left: 13px;
+}
+
+.menu-recette {
+  margin-left: 39.5px;
+}
+
+.menu-favoris {
+  margin-left: 39.5px;
+}
+
+.menu-communaute {
+  margin-left: 35.5px;
+}
+
+.menu-profil {
+  margin-left: 31.5px;
+}

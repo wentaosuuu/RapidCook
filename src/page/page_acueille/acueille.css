@@ -1,0 +1,360 @@
+body {
+  position: relative;
+  background-color: #F7FCFF;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  transform: translateY(-8px);
+}
+
+.system-bar-top {
+  position: relative;
+  height: 39px;
+  width: 414px;
+}
+
+.time {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  left: 0px;
+  top: calc(50% - 21px / 2 - 9px);
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.cellular-Connection {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  right: 64px;
+  top: 6px;
+}
+
+.wifi {
+  position: absolute;
+  width: 15.33px;
+  height: 11px;
+  right: 42.67px;
+  top: 6px;
+}
+
+.battery {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  left: 379px;
+  top: 6px;
+}
+
+.system-back-recettes {
+  position: absolute;
+  width: 414px;
+  height: 50px;
+  left: -1px;
+  top: 36px;
+  background: #F7F7F7;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.system-back-recettes-icon {
+  z-index: 1;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+  top: 15px;
+}
+
+.system-back-recettes-text {
+  position: absolute;
+  width: 414px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #FD8469;
+}
+
+.system-search-bar {
+  position: absolute;
+  width: 414px;
+  height: 47px;
+  left: 0;
+  top: 86px;
+}
+
+.system-search-bar-icon-wrapper {
+  position: absolute;
+  width: 380px;
+  height: 26px;
+  left: 20px;
+  top: 12px;
+  border: 1px solid #F7F7F7;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.system-search-bar-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 5px;
+  top: 1px;
+}
+
+.system-search-bar-text-wrapper {
+  position: absolute;
+  width: 316px;
+  height: 24px;
+  left: calc(50% - 316px / 2 + 24px);
+  top: 13px;
+}
+
+.system-search-bar-text {
+  background-color: #F7FCFF;
+  width: 200px;
+  border: none;
+}
+
+::-webkit-input-placeholder {
+  color: #D0D0D0;
+}
+
+.tier-temp-wrapper {
+  position: absolute;
+  width: 190px;
+  height: 36px;
+  left: 13px;
+  top: 142px;
+  background: #00BFA6;
+  border-radius: 12px;
+}
+
+.tier-temp-text {
+  position: absolute;
+  width: 140px;
+  height: 24px;
+  left: 9px;
+  top: calc(50% - 23px / 2 + 0.5px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #FFFEFE;
+}
+
+.tier-temp-icon {
+  position: absolute;
+  width: 18px;
+  height: 10px;
+  left: 158px;
+  top: 20px;
+  color: #FFFEFE;
+  background-color: #00BFA6;
+  border: none;
+}
+
+.tier-repas-wrapper {
+  position: absolute;
+  width: 165px;
+  height: 36px;
+  left: 227px;
+  top: 142px;
+  background: #00BFA6;
+  border-radius: 12px;
+}
+
+.tier-repas-icon {
+  position: absolute;
+  width: 18px;
+  height: 10px;
+  right: 9px;
+  top: 20px;
+  border: none;
+  color: #FFFEFE;
+  background-color: #00BFA6;
+}
+
+.tier-repas-text {
+  position: absolute;
+  width: 95px;
+  height: 24px;
+  left: 5px;
+  top: calc(50% - 23px / 2 - 0.5px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #FFFFFF;
+}
+
+.recette-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  width: 374px;
+  height: 485px;
+  left: 20px;
+  top: 189px;
+  overflow-y: scroll;
+  background: #FFFFFF;
+}
+
+.recette-colone-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 358px;
+  height: 156px;
+}
+
+.recette-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.recette-item-image {
+  position: relative;
+  margin-top: 20px;
+}
+
+.recette-item-img {
+  margin-top: 20px;
+}
+
+.recette-minuite-one {
+  position: absolute;
+  left: 134px;
+  top: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #15E8CC;
+  background: #FEFEFE;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+}
+
+.recette-minuite-two {
+  position: absolute;
+  right: -20px;
+  top: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #15E8CC;
+  background: #FEFEFE;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+}
+
+.recette-des {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 169px;
+  height: 34px;
+}
+
+.recette-des-titre-wrapper {
+  margin-left: 10px;
+}
+
+.recette-des-titre {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.recette-des-titre-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #B8C1C1;
+}
+
+.system-menu {
+  position: absolute;
+  width: 414px;
+  height: 62px;
+  left: 0;
+  top: 674px;
+  background: #FFFFFF;
+  box-shadow: 0 -1.5px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px 20px 0 0;
+}
+
+.menu-item {
+  margin-top: 10px;
+}
+
+.menu-home {
+  margin-left: 13px;
+}
+
+.menu-recette {
+  margin-left: 39.5px;
+}
+
+.menu-favoris {
+  margin-left: 39.5px;
+}
+
+.menu-communaute {
+  margin-left: 35.5px;
+}
+
+.menu-profil {
+  margin-left: 31.5px;
+}

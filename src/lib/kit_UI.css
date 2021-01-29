@@ -1,0 +1,161 @@
+body {
+  position: relative;
+  background-color: #F7FCFF;
+  margin: 0;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.system-bar-top{
+  position: relative;
+  height: 39px;
+  width: 414px;
+}
+
+.time{
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  left: 0px;
+  top: calc(50% - 21px/2 - 9px);
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.cellular-Connection{
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  right: 64px;
+  top: 6px;
+}
+
+.wifi{
+  position: absolute;
+  width: 15.33px;
+  height: 11px;
+  right: 42.67px;
+  top: 6px;
+}
+
+.battery{
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  left: 379px;
+  top: 6px;
+}
+
+.bg-top{
+  width: 414px;
+  height: 226px;
+}
+
+.btn-wrapper{
+  position: relative;
+  width: 245px;
+  height: 77px;
+  background: #00BFA6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 44px;
+}
+
+.btn-text{
+  position: absolute;
+  left: 30%;
+  top: 35%;
+  width: 121px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19.4444px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.suivante-wrapper{
+  position: relative;
+  width: 233px;
+  height: 53px;
+  background: #00BFA6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 44px;
+  margin-top: 10px;
+}
+
+.suivante{
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 87px;
+  top: 19px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.adultes-img{
+  width: 221px;
+  height: 108.09px;
+  margin-top: 10px;
+}
+
+.enfent-img{
+  width: 162px;
+  height: 79.62px;
+}
+
+.system-menu{
+  position: absolute;
+  width: 414px;
+  height: 62px;
+  left: 0;
+  top: 674px;
+  background: #FFFFFF;
+  box-shadow: 0  -1.5px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px 20px 0 0;
+}
+
+.menu-item{
+  margin-top:10px;
+}
+
+.menu-home{
+  margin-left: 13px;
+}
+
+.menu-recette{
+  margin-left: 39.5px;
+}
+
+.menu-favoris{
+  margin-left: 39.5px;
+}
+
+.menu-communaute{
+  margin-left: 35.5px;
+}
+
+.menu-profil{
+  margin-left: 31.5px;
+}

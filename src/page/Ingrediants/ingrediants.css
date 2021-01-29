@@ -1,0 +1,463 @@
+body {
+  position: relative;
+  background-color: #F7FCFF;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.system-bar-top {
+  position: relative;
+  height: 39px;
+  width: 414px;
+}
+
+.time {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  left: 0px;
+  top: calc(50% - 21px / 2 - 9px);
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.cellular-Connection {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  right: 64px;
+  top: 6px;
+}
+
+.wifi {
+  position: absolute;
+  width: 15.33px;
+  height: 11px;
+  right: 42.67px;
+  top: 6px;
+}
+
+.battery {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  left: 379px;
+  top: 6px;
+}
+
+.titre {
+  position: absolute;
+  width: 306px;
+  height: 56px;
+  left: 65px;
+  top: 35px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.ingrediants-wrapper {
+  position: absolute;
+  width: 356px;
+  height: 155px;
+  left: 30px;
+  top: 91px;
+  background: #F7FCFF;
+  border-radius: 10px;
+}
+
+.ingrediants-accomagnement {
+  position: absolute;
+  width: 151px;
+  height: 31px;
+  left: 0px;
+  top: 5px;
+  background: #FFFFFF;
+  border: 2px solid #FFCEC3;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.ingrediants-accomagnement-text {
+  position: static;
+  width: 145px;
+  height: 19px;
+  left: 10px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.ingrediants-viande {
+  position: absolute;
+  width: 70px;
+  height: 31px;
+  left: 169px;
+  top: 5px;
+
+  background: #FFFFFF;
+  border: 2px solid #00FF94;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.ingrediants-viande-text {
+  position: static;
+  width: 62px;
+  height: 19px;
+  left: 10px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.ingrediants-poisson {
+  position: absolute;
+  width: 78px;
+  height: 31px;
+  left: 249px;
+  top: 5px;
+  background: #FFFFFF;
+  border: 2px solid #15E8CC;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.ingrediants-poisson-text {
+  position: static;
+  width: 69px;
+  height: 19px;
+  left: 10px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.ingrediants-produits-laitiers {
+  position: absolute;
+  width: 132px;
+  height: 31px;
+  left: 0px;
+  top: 47px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.ingrediants-produites-laitiers-text {
+  position: static;
+  width: 127px;
+  height: 19px;
+  left: 10px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.ingrediants-matiere-grasses-sauces {
+  position: absolute;
+  width: 192px;
+  height: 31px;
+  left: 138px;
+  top: 47px;
+  background: #FFFEFE;
+  border: 2px solid #FD8469;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.ingrediants-matiere-grasses-sauces-text {
+  position: static;
+  width: 190px;
+  height: 19px;
+  left: 10px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.ingrediants-fruits {
+  position: absolute;
+  width: 61px;
+  height: 31px;
+  left: 0px;
+  top: 89px;
+  background: #FFFFFF;
+  border: 2px solid #15E8CC;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.ingrediants-fruits-text {
+  position: static;
+  width: 55px;
+  height: 19px;
+  left: 10px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.ingrediants-assisonement-epices {
+  position: absolute;
+  width: 185px;
+  height: 31px;
+  left: 66px;
+  top: 89px;
+  background: #FFFFFF;
+  border: 2px solid #FFCEC3;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.ingrediants-assisonement-epices-text {
+  position: static;
+  width: 183px;
+  height: 19px;
+  left: 10px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.ingrediants-legumes {
+  position: absolute;
+  width: 86px;
+  height: 31px;
+  left: 260px;
+  top: 86px;
+  background: #FFFFFF;
+  border: 2px solid #15E8CC;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.ingrediants-legumes-text {
+  position: static;
+  width: 82px;
+  height: 19px;
+  left: 10px;
+  top: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.afficher-wrapper {
+  position: absolute;
+  width: 350px;
+  height: 145px;
+  left: 30px;
+  top: 280px;
+
+  background: #F7F7F7;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ligne-one {
+  margin: 12px 7px 2px 7px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ligne-one-item {
+  height: 60px;
+  width: 60px;
+  margin-right: 9px;
+  background: #FFFDFD;;
+}
+
+.ligne-two {
+  margin: 0 7px 2px 7px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ligne-two-item {
+  height: 60px;
+  width: 60px;
+  margin-right: 9px;
+  background: #FFFDFD;;
+}
+
+.ingrediants1, .ingrediants2, .ingrediants3, .ingrediants4, .ingrediants5, .ingrediants6 {
+  opacity: 0;
+}
+
+.ingrediants-choisit-poulet {
+  opacity: 0;
+}
+
+
+.ingrediants-choisit {
+  position: absolute;
+  width: 350px;
+  height: 116px;
+  left: 32px;
+  top: 463px;
+}
+
+.ingrediants-choisit-titre {
+  position: absolute;
+  width: 296px;
+  height: 22px;
+  left: 7px;
+  top: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0E0D0D;
+}
+
+.ingrediants-choisit-wrapper {
+  position: absolute;
+  width: 336px;
+  height: 60px;
+  left: 7px;
+  top: 38px;
+
+  display: flex;
+  flex-direction: row;
+  margin: 0 7px 2px 0;
+}
+
+.ingrediants-choisit-item {
+  width: 60px;
+  height: 60px;
+  margin-right: 9px;
+  background: #FFFDFD;;
+}
+
+.valider-wrapper {
+  position: absolute;
+  width: 198px;
+  height: 53px;
+  left: 108px;
+  top: 589px;
+  background: #00BFA6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 44px;
+}
+
+.valider {
+  position: absolute;
+  width: 204px;
+  height: 36px;
+  left: calc(50% - 204px / 2 - 1px);
+  top: calc(50% - 36px / 2);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.system-menu {
+  position: absolute;
+  width: 414px;
+  height: 62px;
+  left: 0;
+  top: 674px;
+  background: #FFFFFF;
+  box-shadow: 0 -1.5px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px 20px 0 0;
+}
+
+.menu-item {
+  margin-top: 10px;
+}
+
+.menu-home {
+  margin-left: 13px;
+}
+
+.menu-recette {
+  margin-left: 39.5px;
+}
+
+.menu-favoris {
+  margin-left: 39.5px;
+}
+
+.menu-communaute {
+  margin-left: 35.5px;
+}
+
+.menu-profil {
+  margin-left: 31.5px;
+}
+
+

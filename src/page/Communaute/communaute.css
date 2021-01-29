@@ -1,0 +1,286 @@
+body {
+  position: relative;
+  background-color: #F7FCFF;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.system-bar-top {
+  position: relative;
+  height: 39px;
+  width: 414px;
+}
+
+.time {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  left: 0px;
+  top: calc(50% - 21px / 2 - 9px);
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.cellular-Connection {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  right: 64px;
+  top: 6px;
+}
+
+.wifi {
+  position: absolute;
+  width: 15.33px;
+  height: 11px;
+  right: 42.67px;
+  top: 6px;
+}
+
+.battery {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  left: 379px;
+  top: 6px;
+}
+
+.search-wrapper {
+  position: absolute;
+  width: 329px;
+  height: 40px;
+  left: 36px;
+  top: 44px;
+
+  border: 1px solid #BFBFBF;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+
+.search-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 9px;
+  top: 10px;
+}
+
+.search-text {
+  position: absolute;
+  width: 220px;
+  height: 31px;
+  left: 38px;
+  top: 3px;
+  background-color: #F7FCFF;
+  border: none;
+}
+
+::-webkit-input-placeholder {
+  color: #BFBFBF;
+}
+
+.btn-ajouter-wrapper {
+  position: absolute;
+  width: 329px;
+  height: 43px;
+  left: 36px;
+  top: 94px;
+  background: #00BFA6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 120px;
+}
+
+.btn-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 11px;
+  top: 10px;
+}
+
+.btn-text {
+  position: absolute;
+  height: 36px;
+  left: 23px;
+  right: 22px;
+  top: 3px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #FFFFFF;
+}
+
+.recette-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 10px;
+
+  position: absolute;
+  width: 414px;
+  height: 514px;
+  left: 1px;
+  top: 147px;
+  overflow-y: scroll;
+}
+
+.recette-row-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 383px;
+  height: 116px;
+  background: #FFFFFF;
+  margin: 10px 0;
+}
+
+.recette-des-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+  margin-left: 16px;
+}
+
+.recette-des-titre {
+  width: 169px;
+  height: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.recette-des-sous-titre {
+  word-break: break-all;
+  width: 161px;
+  height: 39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #888888;
+}
+
+.recette-des-status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 109px;
+  height: 22px;
+}
+
+.recette-nb-vue {
+  width: 27px;
+  height: 18px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.recette-nb-like {
+  width: 27px;
+  height: 18px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.recette-des-type-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 130px;
+  margin-top: 8px;
+}
+
+.recette-des-type-minuite {
+  width: 40px;
+  height: 20px;
+  background: #D9D9D9;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.recette-des-type {
+  width: 80px;
+  height: 20px;
+  background: #D9D9D9;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.system-menu {
+  position: absolute;
+  width: 414px;
+  height: 62px;
+  left: 0;
+  top: 674px;
+  background: #FFFFFF;
+  box-shadow: 0 -1.5px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px 20px 0 0;
+}
+
+.menu-item {
+  margin-top: 10px;
+}
+
+.menu-home {
+  margin-left: 13px;
+}
+
+.menu-recette {
+  margin-left: 39.5px;
+}
+
+.menu-favoris {
+  margin-left: 39.5px;
+}
+
+.menu-communaute {
+  margin-left: 35.5px;
+}
+
+.menu-profil {
+  margin-left: 31.5px;
+}
+

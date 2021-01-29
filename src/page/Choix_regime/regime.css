@@ -1,0 +1,172 @@
+body {
+  position: relative;
+  background-color: #F7FCFF;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.system-bar-top {
+  position: relative;
+  height: 39px;
+  width: 414px;
+}
+
+.time {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  left: 0px;
+  top: calc(50% - 21px / 2 - 9px);
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.cellular-Connection {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  right: 64px;
+  top: 6px;
+}
+
+.wifi {
+  position: absolute;
+  width: 15.33px;
+  height: 11px;
+  right: 42.67px;
+  top: 6px;
+}
+
+.battery {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  left: 379px;
+  top: 6px;
+}
+
+.bg-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 414px;
+  height: 226px;
+}
+
+.titre-one {
+  position: absolute;
+  width: 414px;
+  height: 56px;
+  left: 0px;
+  top: 227px;
+  font-family: Chewy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.titre-two {
+  position: absolute;
+  width: 414px;
+  height: 56px;
+  left: 0px;
+  top: 278px;
+  font-family: Chewy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.regime-one-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+
+  position: absolute;
+  width: 352px;
+  height: 131px;
+  left: 31px;
+  top: 334px;
+}
+
+.regime-check {
+  position: absolute;
+  left: 33px;
+  top: -12px;
+  opacity: 0;
+}
+
+.regime-item-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.produit-laitier {
+  width: 62px;
+}
+
+.regime-two-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  width: 222px;
+  height: 90px;
+  left: 96px;
+  top: 459px;
+}
+
+.suivante-wrapper {
+  position: absolute;
+  width: 233px;
+  height: 53px;
+  left: 90px;
+  top: 649px;
+  background: #00BFA6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 44px;
+}
+
+.suivante {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 87px;
+  top: 19px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
